@@ -1,0 +1,240 @@
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: black;
+    white-space: nowrap;
+    overflow-x: auto;
+    width: 100%;
+  }
+  
+  li {
+    display: inline-block;
+    font-size: 3vw;
+  }
+  
+    .image-container {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+  }
+  
+  .image-container img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s ease-in-out;
+  }
+  
+  .image-container:hover img {
+    transform: scale(1.2);
+  }
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 3vw;
+    text-decoration: none;
+    font-family: "Madimi One";
+  }
+  
+  li a:hover {
+    background-color: #181a2e;
+  }
+  
+  h1 {
+    text-align: left;
+    background-color: rgb(0, 0, 0);
+    padding: 20px;
+    color: white;
+    font-family: "Caveat Brush";
+    font-size: 7vw;
+  }
+  
+    body {
+    background-color: #181a2e ;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+  }
+    h1 a {
+    font-family: "Madimi One";
+    text-decoration: none;
+    color: white;
+    font-size: 3vw;
+  }
+  
+  h1 a:hover {
+  color: brown;
+}
+
+.madimi-one-regular {
+  font-family: "Madimi One", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.caveat-brush-regular {
+  font-family: "Caveat Brush", cursive;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.xianyun img {
+  width: 60%;
+  height: 60%;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vw;
+}
+.xianyun table {
+  background-color: #263147;
+  border: solid 2px #c2eacc;
+  border-collapse: collapse;
+}
+
+.xianyun th {
+    border: solid 2px #c2eacc;
+  font-family: "Caveat Brush";
+  font-size: 3vw;
+   padding: 3vw;
+   text-align: center;
+   border-collapse: collapse;
+   color: #c2eacc;
+}
+
+.xianyun tr {
+  border: solid 2px #c2eacc;
+  border-collapse: collapse;
+}
+
+.xianyun td {
+  border: solid 2px #c2eacc;
+  font-family: "Madimi One";
+  font-size: 2.5vw;
+   padding: 2.5vw;
+   text-align: center;
+   border-collapse: collapse;
+   color: #c2eacc;
+}
+
+.xianyun iframe {
+    width: 60%;
+  height: 60%;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vw;
+}
+
+.xianyun p {
+  clear: both;
+  background-color: #263147;
+  text-align: center;
+   font-family: "Madimi One";
+   font-size: 2.5vw;
+   color: #c3f2de;
+   padding: 2.5vw;
+}
+
+.xianyun {
+  display: block;
+}
+
+.gaming img {
+  width: 60%;
+  height: 60%;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vw;
+}
+.gaming table {
+  background-color: #37130b;
+  border: solid 2px #dc6f4d;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.gaming th {
+    border: solid 2px #dc6f4dc;
+  font-family: "Caveat Brush";
+  font-size: 3vw;
+   padding: 3vw;
+   text-align: center;
+   border-collapse: collapse;
+   color: #dc6f4d;
+}
+
+.gaming tr {
+  border: solid 2px #dc6f4d;
+  border-collapse: collapse;
+  text-align: center;
+}
+
+.gaming td {
+  border: solid 2px #dc6f4d;
+  font-family: "Madimi One";
+  font-size: 2.5vw;
+   padding: 2.5vw;
+   text-align: center;
+   border-collapse: collapse;
+   color: #dc6f4d;
+}
+
+.gaming iframe {
+    width: 60%;
+  height: 60%;
+      display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 2vw;
+}
+
+.gaming p {
+  clear: both;
+  background-color: #37130b;
+  text-align: center;
+   font-family: "Madimi One";
+   font-size: 2.5vw;
+   color: #dc6f4d;
+   padding: 2.5vw;
+}
+
+.gaming {
+  display: block;
+}
+
+footer {
+  background-color: black;
+  font-family: "Madimi One";
+  font-size: 2.5vw;
+  padding: 2.5vw;
+}
+
+a {
+  text-decoration: none;
+  
+}
+
+a:hover {
+  color: brown;
+}
+
+a {
+    font-family: "Madimi One";
+    text-decoration: none;
+    color: white;
+    font-size: 3vw;
+    text-align: center;
+  }
+  
+.ji {
+         width: 30%;
+    height: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}

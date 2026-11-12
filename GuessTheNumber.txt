@@ -1,0 +1,50 @@
+import random
+
+    
+print('Welcome to Guess the Number!')
+name = input("What is your name?")
+
+
+def guess_the_number():
+  randomNumber = random.randint(0, 100)
+  guesses = 10
+  
+  yes = str('yes') or str('Yes')
+    
+  while guesses > 0:
+    try:
+      guess = int(input("Enter your guess: "))
+        
+      if guess < 0 or guess > 100:
+        print("Choose a number between 0 and 100 please")
+        continue
+        
+      guesses -= 1
+          
+      if (guess == randomNumber):
+        print("Correct!")
+        again = (input("Play again?"))
+        
+        if again == yes:
+          guess_the_number()
+        else:
+          print("Thanks")
+          break
+        
+      elif (guess < randomNumber):
+        print("Too low, you have " + str(guesses) + " more guesses")
+      else:
+        print("Too high, you have " + str(guesses) + " more guesses")
+      
+      if guesses == 0:
+        print("You ran out of guesses, the number was " + str(randomNumber) + ", good try " + name + " :(")
+        again = (input("Play again?"))
+        if again == yes:
+          guess_the_number()
+        else:
+          break
+          print("Thanks")
+    except ValueError:
+      print("Please enter an actual number")
+          
+guess_the_number()
